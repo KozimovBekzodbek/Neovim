@@ -6,7 +6,7 @@ vim.opt.fillchars = {eob = " "}
 
 
 
-
+vim.g.netrw_banner = 0
 -- shada faylini muntazam ravishda o'chirib turish uchun
 local shada_path = vim.fn.stdpath('data') .. '/shada/main.shada'
 
